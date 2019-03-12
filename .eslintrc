@@ -1,0 +1,21 @@
+{
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"rules": {
+		"quotes": [2, "single"],
+		"no-unused-vars": [2, {"vars": "all", "args": "none"}],
+		"consistent-return": 0,
+		"camelcase": 0,
+		"no-underscore-dangle": 0,
+		"new-cap": 0,
+		"no-new": 0,
+		"global-strict": 0,
+		"strict": [2, "global"],
+		"curly": 2
+	},
+	"env": {
+		"node": true,
+		"es6": true
+	}
+}

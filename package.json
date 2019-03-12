@@ -1,0 +1,39 @@
+{
+	"name": "jsdoc-plugin-npm",
+	"description": "Generate a jsdoc @link tag from an @npm tag, e.g., `{@npm jsdoc-plugin-npm}` => `{@link https://www.npmjs.org/package/jsdoc-plugin-npm|jsdoc-plugin-npm}`",
+	"license": "Apache 2.0",
+	"author": {
+		"name": "Justin Beaudry",
+		"url": "https://justinbeaudry.com",
+		"email": "me@justinbeaudry.dev"
+	},
+	"main": "lib/jsdoc-plugin-npm.js",
+	"homepage": "https://github.com/JustinBeaudry/jsdoc-plugin-npm",
+	"repository": "JustinBeaudry/jsdoc-plugin-npm",
+	"bugs": "https://github.com/JustinBeaudry/jsdoc-plugin-npm/issues",
+	"engines": {
+		"node": ">=4.x.x",
+		"npm": ">=3.x.x"
+	},
+	"devDependencies": {
+		"jsdoc": "3.5.5"
+	},
+	"peerDependencies": {
+		"jsdoc": ">=3.3.x"
+	},
+	"files": [
+		"lib/jsdoc-plugin-npm.js"
+	],
+	"keywords": [
+		"jsdoc",
+		"JSDoc",
+		"jsdoc plugin",
+		"jsdoc plugins",
+		"plugin jsdoc",
+		"jsdoc plugin link",
+		"jsdoc plugin links",
+		"jsdoc plugin url",
+		"jsdoc plugin urls",
+		"jsdoc plugin npm"
+	]
+}
