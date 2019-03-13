@@ -25,6 +25,9 @@
 	"files": [
 		"lib/jsdoc-plugin-npm.js"
 	],
+	"scripts": {
+		"test": "node tests/test"
+	},
 	"keywords": [
 		"jsdoc",
 		"JSDoc",
