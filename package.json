@@ -1,6 +1,6 @@
 {
 	"name": "jsdoc-plugin-npm",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Generate a jsdoc @link tag from an @npm tag, e.g., `{@npm jsdoc-plugin-npm}` => `{@link https://www.npmjs.org/package/jsdoc-plugin-npm|jsdoc-plugin-npm}`",
 	"license": "Apache 2.0",
 	"author": {
