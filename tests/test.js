@@ -12,7 +12,8 @@ const setup = () => promisify(fs.writeFile)(config, CONFIG, {encoding: 'utf8'});
 const clean = () => promisify(fs.unlink)(config);
 const run = () => {
   return new Promise((resolve, reject) => {
-    const jsdoc = spawn(path.join(__dirname, '../node_modules/.bin/jsdoc'), [
+    const jsdoc = spawn('npx', [
+      'jsdoc',
       '-c',
       'tests/conf.json',
       '-X'
