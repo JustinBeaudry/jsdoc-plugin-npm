@@ -1,0 +1,119 @@
+devDependencies:
+  jsdoc: 3.5.5
+lockfileVersion: 5
+packages:
+  /babylon/7.0.0-beta.19:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-Vg0C9s/REX6/WIXN37UKpv5ZhRi6A4pjHlpkE34+8/a6c2W1Q692n3hmc+SZG5lKRnaExLUbxtJ1SVT+KaCQ/A==
+  /bluebird/3.5.3:
+    dev: true
+    resolution:
+      integrity: sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
+  /catharsis/0.8.9:
+    dependencies:
+      underscore-contrib: 0.3.0
+    dev: true
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha1-mMyJDKZS3S7w5ws3klMQ/56Q/Is=
+  /escape-string-regexp/1.0.5:
+    dev: true
+    engines:
+      node: '>=0.8.0'
+    resolution:
+      integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+  /graceful-fs/4.1.15:
+    dev: true
+    resolution:
+      integrity: sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
+  /js2xmlparser/3.0.0:
+    dependencies:
+      xmlcreate: 1.0.2
+    dev: true
+    resolution:
+      integrity: sha1-P7YOqgicVED5MZ9RdgzNB+JJlzM=
+  /jsdoc/3.5.5:
+    dependencies:
+      babylon: 7.0.0-beta.19
+      bluebird: 3.5.3
+      catharsis: 0.8.9
+      escape-string-regexp: 1.0.5
+      js2xmlparser: 3.0.0
+      klaw: 2.0.0
+      marked: 0.3.19
+      mkdirp: 0.5.1
+      requizzle: 0.2.1
+      strip-json-comments: 2.0.1
+      taffydb: 2.6.2
+      underscore: 1.8.3
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-6PxB65TAU4WO0Wzyr/4/YhlGovXl0EVYfpKbpSroSj0qBxT4/xod/l40Opkm38dRHRdQgdeY836M0uVnJQG7kg==
+  /klaw/2.0.0:
+    dependencies:
+      graceful-fs: 4.1.15
+    dev: true
+    resolution:
+      integrity: sha1-WcEo4Nxc5BAgEVEZTuucv4WGUPY=
+  /marked/0.3.19:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-ea2eGWOqNxPcXv8dyERdSr/6FmzvWwzjMxpfGB/sbMccXoct+xY+YukPD+QTUZwyvK7BZwcr4m21WBOW41pAkg==
+  /minimist/0.0.8:
+    dev: true
+    resolution:
+      integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+  /mkdirp/0.5.1:
+    dependencies:
+      minimist: 0.0.8
+    dev: true
+    hasBin: true
+    resolution:
+      integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  /requizzle/0.2.1:
+    dependencies:
+      underscore: 1.6.0
+    dev: true
+    resolution:
+      integrity: sha1-aUPDUwxNmn5G8c3dUcFY/GcM294=
+  /strip-json-comments/2.0.1:
+    dev: true
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+  /taffydb/2.6.2:
+    dev: true
+    resolution:
+      integrity: sha1-fLy2S1oUG2ou/CxdLGe04VCyomg=
+  /underscore-contrib/0.3.0:
+    dependencies:
+      underscore: 1.6.0
+    dev: true
+    resolution:
+      integrity: sha1-ZltmwkeD+PorGMn4y7Dix9SMJsc=
+  /underscore/1.6.0:
+    dev: true
+    resolution:
+      integrity: sha1-izixDKze9jM3uLJOT/htRa6lKag=
+  /underscore/1.8.3:
+    dev: true
+    resolution:
+      integrity: sha1-Tz+1OxBuYJf8+ctBCfKl6b36UCI=
+  /xmlcreate/1.0.2:
+    dev: true
+    resolution:
+      integrity: sha1-+mv3YqYKQT+z3Y9LA8WyaSONMI8=
+specifiers:
+  jsdoc: 3.5.5
