@@ -76,7 +76,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-[url-plugin]: JustinBeaudry/jsdoc-plugin-url
+[url-plugin]: https://github.com/JustinBeaudry/jsdoc-plugin-url
 [jsdoc]: http://usejsdoc.org
 [jsdoc-inline]: http://usejsdoc.org/about-block-inline-tags.html
 [jsdoc-plugins]: http://usejsdoc.org/about-configuring-jsdoc.html#configuring-plugins
