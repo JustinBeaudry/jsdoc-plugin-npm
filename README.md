@@ -3,7 +3,7 @@
 </p>
 
 ## Overview
-Generate a [jsdoc][jsdoc] `@link` [inline tag][jsdoc-inline] from an `@npm` inline tag.
+Generate [jsdoc][jsdoc] `@link` [inline tags][jsdoc-inline] from `@npm` inline tags.
 
 e.g., `{@npm jsdoc-plugin-npm}` => `{@link https://www.npmjs.com/package/jsdoc-plugin-npm|jsdoc-plugin-npm}`
 
