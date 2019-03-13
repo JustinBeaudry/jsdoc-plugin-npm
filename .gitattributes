@@ -5,9 +5,9 @@
 *.js text diff=javascript
 *.md text diff=markdown
 *.json text diff=json
+*.yaml text diff=yaml
 
 # files without extensions
-LICENSE text
 .editorconfig text
 .gitattributes text
 .gitignore text
@@ -20,3 +20,4 @@ Makefile text
 
 # don't diff these files
 package-lock.json -diff
+*.txt -diff
